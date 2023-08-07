@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 177);
+    background-size: 30%;
+    margin: 30px 0;
+    font-family: Tahoma;
+}
+
+.header{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header h1, .header p{
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: "NiseSonicBattle", Impact;
+}
+
+.header h1{
+    font-size: min(10vw, 3em);
+    color: #336cc7;
+    text-shadow: 5px 5px 2px rgb(214, 175, 1);
+}
+
+.header p {
+    display: flex;
+    color: whitesmoke;
+    font-size: min(4vw, 2em);
+    background-color: rgb(161, 56, 56);
+    height: 35px;
+    padding-top: 0.5vw;
+    padding-right: 0.5vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.img-container #image{
+    display:block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    width: max(30vw, 250px);
+    border-radius: 20px;
+    object-fit: cover;
+    border: 1vw solid #4287f5;
+}
+
+.img-container p{
+    margin-top: 0;
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.content-info{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.content-info h2{
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.content-info ul{
+    font-size: 1.1em;
+}
+
+.content-info ul li{
+    margin-bottom: 15px;
+}
+
+.content-info .sonic-quote{
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.sonic-quote{
+    margin: 30px auto;
+    font-style: italic;
+}
+
+.sonic-quote p{
+    margin: 0;
+}
+
+footer{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
